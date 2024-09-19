@@ -7,7 +7,11 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "standalone": false
+          "standalone": false,
+          "inlineTemplate": false,
+          "inlineStyle": false,
+          "skipTests": false
+
         },
         "@schematics/angular:directive": {
           "standalone": false
